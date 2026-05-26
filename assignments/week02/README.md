@@ -5,7 +5,7 @@ Create an end-to-end machine learning pipeline to predict insurance renewal usin
 - Week2_ML_Pipeline.ipynb
 - insurance_policy_renewal_dataset.xls
 ## Dataset or Input Source
-The dataset is provided by the professor.
+The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_Premium, Years_With_Company, Number_of_Claims, Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and Renewed_Policy.
 ## Methods Used
 1. Load and inspect the dataset
 2. Understand the business problem
