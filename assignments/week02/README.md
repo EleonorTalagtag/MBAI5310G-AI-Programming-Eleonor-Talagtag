@@ -1,4 +1,4 @@
-# Week 02 – End-to-End Machine Learning Pipeline
+# Assignment 2: End-to-End Machine Learning Pipeline
 ## Task Overview
 Create an end-to-end machine learning pipeline to predict insurance renewal using logistic regression model. 
 ## Files in This Folder
