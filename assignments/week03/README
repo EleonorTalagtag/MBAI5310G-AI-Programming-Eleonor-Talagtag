@@ -1,1 +1,31 @@
-
+# Assignment 3: Classification Models and Evaluation
+## Task Overview
+Create an end-to-end machine learning pipeline to predict insurance renewal using logistic regression model. 
+## Files in This Folder
+- Week2_ML_Pipeline.ipynb
+- insurance_policy_renewal_dataset.xls
+## Dataset or Input Source
+The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_Premium, Years_With_Company, Number_of_Claims, Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and Renewed_Policy.
+## Methods Used
+1. Load and inspect the dataset
+2. Understand the business problem
+3. Identify the features and target variable
+4. Define X and y
+5. Clean the data; remove duplicates and handle missing values
+6. Handle categorical and numerical variables
+7. Split the data into training and testing sets
+8. Apply preprocessing
+9. Train a simple baseline model using Logistic Regression
+## Key Results
+- Successfully built an end-to-end machine learning pipeline for predicting insurance policy renewal using Logistic Regression.
+- The baseline Logistic Regression model predicts that most policyholders are unlikely to renew their insurance policies.
+- The results will help insurance companies improve customer retention strategies, strengthen client relationships, and design targeted marketing campaigns to increase renewal rates.
+## Responsible AI Reflection
+- Some features such as Age, Annual_Premium, Years_With_Company, Satisfaction_Score, Number_of_Claims, and Payment_Method may introduce possible bias in the prediction results if certain customer groups are underrepresented or overrepresented in the dataset.
+- The dataset contains customer-related information, so proper data privacy and security measures should be followed when handling and storing the data.
+- The model predictions should only be used as a reference to support business decisions and not as the sole basis for approving or denying customer actions.
+- Human review is still recommended before applying the model in a real business environment to ensure fairness, accuracy, and ethical decision-making.
+## How to Run or Review
+1. Save the insurance_policy_renewal_dataset.xls file in the Jupyter Notebook root folder or working directory.
+2. Open the Week2_ML_Pipeline.ipynb file using Jupyter Notebook or JupyterLab.
+3. Run the notebook cells sequentially from top to bottom to execute the data preprocessing, model training, and evaluation process.
