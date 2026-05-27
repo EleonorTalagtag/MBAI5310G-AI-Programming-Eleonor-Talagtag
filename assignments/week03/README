@@ -11,20 +11,18 @@ The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_P
 Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and
 Renewed_Policy.
 ## Methods Used
-- Data cleaning and preprocessing using pandas
-- Handling categorical and nurmerical variables
-- Splitting the dataset into training and testing sets
-- Building machine learning models using:
-  - Logistic Regression
-  - Support Vector Machine (SVM)
-- Model evaluation using:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1-score
-- Create Confusion Matrix
-- Data visualization using matplotlib and seaborn
-- Performance comparison between machine learning models
+1. Load and inspect the dataset using pandas
+2. Understand the business problem
+3. Identify the features and target variable
+4. Define feature variables (X) and target variable (y)
+5. Clean the data by removing duplicates and handling missing values
+6. Process categorical and numerical variables
+7. Split the dataset into training and testing sets
+8. Apply data preprocessing techniques
+9. Train a baseline Logistic Regression model
+10. Evaluate the model using Accuracy, Precision, Recall, and F1-score
+11. Generate and analyze the Confusion Matrix
+12. Compare model performance and interpret results
 ## Key Results
 - Successfully built an end-to-end machine learning pipeline for predicting insurance policy renewal using Logistic Regression.
 - The baseline Logistic Regression model predicts that most policyholders are unlikely to renew their insurance policies.
