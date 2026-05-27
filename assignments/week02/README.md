@@ -7,15 +7,15 @@ Create an end-to-end machine learning pipeline to predict insurance renewal usin
 ## Dataset or Input Source
 The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_Premium, Years_With_Company, Number_of_Claims, Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and Renewed_Policy.
 ## Methods Used
-1. Load and inspect the dataset
+1. Load and inspect the dataset using pandas
 2. Understand the business problem
 3. Identify the features and target variable
-4. Define X and y
-5. Clean the data; remove duplicates and handle missing values
-6. Handle categorical and numerical variables
-7. Split the data into training and testing sets
-8. Apply preprocessing
-9. Train a simple baseline model using Logistic Regression
+4. Define feature variables (X) and target variable (y)
+5. Clean the data by removing duplicates and handling missing values
+6. Process categorical and numerical variables
+7. Split the dataset into training and testing sets
+8. Apply data preprocessing techniques
+9. Train a baseline Logistic Regression model
 ## Key Results
 - Successfully built an end-to-end machine learning pipeline for predicting insurance policy renewal using Logistic Regression.
 - The baseline Logistic Regression model predicts that most policyholders are unlikely to renew their insurance policies.
