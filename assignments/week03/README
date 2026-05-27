@@ -12,7 +12,7 @@ Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Sco
 Renewed_Policy.
 ## Methods Used
 - Data cleaning and preprocessing using pandas
-- Handling categorical variables through encoding
+- Handling categorical and nurmerical variables
 - Splitting the dataset into training and testing sets
 - Building machine learning models using:
   - Logistic Regression
@@ -22,6 +22,7 @@ Renewed_Policy.
   - Precision
   - Recall
   - F1-score
+- Create Confusion Matrix
 - Data visualization using matplotlib and seaborn
 - Performance comparison between machine learning models
 ## Key Results
