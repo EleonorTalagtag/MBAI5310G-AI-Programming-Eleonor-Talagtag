@@ -1,21 +1,29 @@
 # Assignment 3: Classification Models and Evaluation
 ## Task Overview
-Create an end-to-end machine learning pipeline to predict insurance renewal using logistic regression model. 
+This assignment focuses on predicting whether customers will renew their insurance policies using machine learning techniques.
+The dataset was cleaned and processed using Python and pandas, while Logistic Regression and Support Vector Machine (SVM) models
+were developed and evaluated using scikit-learn.
 ## Files in This Folder
-- Week2_ML_Pipeline.ipynb
+- Assignment3_Classification-Models-and-Evaluation.ipynb
 - insurance_policy_renewal_dataset.xls
 ## Dataset or Input Source
-The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_Premium, Years_With_Company, Number_of_Claims, Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and Renewed_Policy.
+The dataset contains information such us Customer_ID, Age, Policy_Type, Annual_Premium, Years_With_Company, Number_of_Claims,
+Claim_Amount_Last_Year, Payment_Method, Customer_Service_Calls, Satisfaction_Score, Received_Discount, Auto_Renew_Enabled and
+Renewed_Policy.
 ## Methods Used
-1. Load and inspect the dataset
-2. Understand the business problem
-3. Identify the features and target variable
-4. Define X and y
-5. Clean the data; remove duplicates and handle missing values
-6. Handle categorical and numerical variables
-7. Split the data into training and testing sets
-8. Apply preprocessing
-9. Train a simple baseline model using Logistic Regression
+- Data cleaning and preprocessing using pandas
+- Handling categorical variables through encoding
+- Splitting the dataset into training and testing sets
+- Building machine learning models using:
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+- Model evaluation using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+- Data visualization using matplotlib and seaborn
+- Performance comparison between machine learning models
 ## Key Results
 - Successfully built an end-to-end machine learning pipeline for predicting insurance policy renewal using Logistic Regression.
 - The baseline Logistic Regression model predicts that most policyholders are unlikely to renew their insurance policies.
