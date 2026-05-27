@@ -24,14 +24,18 @@ Renewed_Policy.
 11. Generate and analyze the Confusion Matrix
 12. Compare model performance and interpret results
 ## Key Results
-- Successfully built an end-to-end machine learning pipeline for predicting insurance policy renewal using Logistic Regression.
-- The baseline Logistic Regression model predicts that most policyholders are unlikely to renew their insurance policies.
-- The results will help insurance companies improve customer retention strategies, strengthen client relationships, and design targeted marketing campaigns to increase renewal rates.
+- Logistic Regression achieved better overall performance compared to SVM
+- The model obtained strong Accuracy, Recall, and F1-score results
+- Logistic Regression showed better balance across evaluation metrics
+- Recall was considered the most important metric for the business problem
+- Confusion Matrix analysis helped identify false positives and false negatives
+- The assignment demonstrated how machine learning can support customer retention and how to improve marketing strategies in the insurance industry
 ## Responsible AI Reflection
-- Some features such as Age, Annual_Premium, Years_With_Company, Satisfaction_Score, Number_of_Claims, and Payment_Method may introduce possible bias in the prediction results if certain customer groups are underrepresented or overrepresented in the dataset.
-- The dataset contains customer-related information, so proper data privacy and security measures should be followed when handling and storing the data.
-- The model predictions should only be used as a reference to support business decisions and not as the sole basis for approving or denying customer actions.
-- Human review is still recommended before applying the model in a real business environment to ensure fairness, accuracy, and ethical decision-making.
+- Some features such as Age, Annual_Premium, Years_With_Company, Satisfaction_Score, Number_of_Claims, and Payment_Method may introduce possible bias in the prediction results if certain customer groups are underrepresented or overrepresented in the dataset. These features may unfairly favor or disadvantage some customers during prediction.
+- The dataset contains customer-related information, so proper data privacy and security measures should be followed when handling, storing, and processing the data to protect sensitive customer information.
+- False positives occur when the model predicts that a customer will renew their insurance policy, but the customer actually does not renew. False negatives occur when the model predicts that a customer will not renew their policy, but the customer actually renews it. These prediction errors may affect customer retention strategies, marketing decisions, and business planning.
+- The dataset may not fully represent all customer characteristics or behaviors. Important factors such as financial capacity or income, the number of existing insurance policies, and a customer’s willingness to maintain multiple policies are not included in the dataset. These missing features may affect the fairness and accuracy of the model’s predictions.
+- The model predictions should only be used as a reference to support business decisions and not as the sole basis for approving or denying customer actions. Human review is still recommended before applying the model in a real business environment to ensure fairness, accuracy, and responsible decision-making.
 ## How to Run or Review
 1. Save the insurance_policy_renewal_dataset.xls file in the Jupyter Notebook root folder or working directory.
 2. Open the Assignment3_Classification-Models-and-Evaluation.ipynb file using Jupyter Notebook or JupyterLab.
