@@ -50,24 +50,30 @@ F1-Score	48.39%
 The Decision Tree model showed moderate performance in predicting hotel booking cancellations. The model was able to identify some cancellation patterns, but it still produced several incorrect predictions. Recall was considered especially important because the business wants to identify as many potential cancellations as possible before the arrival date. Detecting more possible cancellations early can help the hotel improve room planning, manage overbooking risks, and reduce possible revenue loss.
 
 ## Key Business Insights
-The Decision Tree model can help StayEase Boutique Hotels identify booking patterns that may increase the likelihood of cancellation. By predicting potentially risky reservations before the guest arrival date, the hotel can improve operational planning and reduce possible revenue loss.
+The Decision Tree model helped identify booking characteristics associated with higher cancellation risk.
 
 The model can support the business by:
+•	Identifying bookings with higher cancellation risk
+•	Improving room allocation and overbooking decisions
+•	Supporting proactive guest communication, such as reminder or confirmation emails
+•	Analyzing cancellation behavior across booking channels and deposit types
+•	Assisting managers in planning occupancy and revenue strategies
 
-Identifying high-risk bookings earlier
-Sending reminder emails or confirmation requests to customers with higher cancellation risk
-Improving room inventory management and overbooking decisions
-Understanding cancellation trends across booking channels, deposit types, and customer booking behavior
-Supporting better revenue management and operational planning
+Overall, the model provides useful insights into customer booking behavior that can help improve operational efficiency and decision-making.
 
-Important features such as lead time, booking channel, deposit type, rep
+## One Limitation of the Model
+One limitation of the model is that the dataset is simulated and may not fully represent real-world hotel booking behavior. Factors such as weather conditions, flight delays, emergencies, local events, and sudden travel restrictions are not included in the dataset. In addition, the model may learn patterns from historical business practices that could introduce bias into predictions.
+
 ## Responsible AI Reflection
-- Some features such as Age, Annual_Premium, Years_With_Company, Satisfaction_Score, Number_of_Claims, and Payment_Method may introduce possible bias in the prediction results if certain customer groups are underrepresented or overrepresented in the dataset. These features may unfairly favor or disadvantage some customers during prediction.
-- The dataset contains customer-related information, so proper data privacy and security measures should be followed when handling, storing, and processing the data to protect sensitive customer information.
-- False positives occur when the model predicts that a customer will renew their insurance policy, but the customer actually does not renew. False negatives occur when the model predicts that a customer will not renew their policy, but the customer actually renews it. These prediction errors may affect customer retention strategies, marketing decisions, and business planning.
-- The dataset may not fully represent all customer characteristics or behaviors. Important factors such as financial capacity or income, the number of existing insurance policies, and a customer’s willingness to maintain multiple policies are not included in the dataset. These missing features may affect the fairness and accuracy of the model’s predictions.
-- The model predictions should only be used as a reference to support business decisions and not as the sole basis for approving or denying customer actions. Human review is still recommended before applying the model in a real business environment to ensure fairness, accuracy, and responsible decision-making.
+Although the Decision Tree model provided useful insights into booking cancellation behavior, responsible and ethical use of the model is still important. The model achieved only moderate performance and produced several incorrect predictions, which means it should not be used as the sole basis for business decisions.
+
+Some booking features, such as booking channel, deposit type, repeated guest status, and previous cancellations, may unintentionally introduce bias into predictions if certain customer groups are overrepresented or underrepresented in the dataset. In addition, the dataset is simulated and may not fully represent real-world booking behavior and customer situations.
+
+The model should be used only as a decision-support tool to help hotel managers identify possible cancellation risks. Human judgment is still necessary because managers may need to consider other important factors that are not included in the dataset, such as weather conditions, emergencies, travel disruptions, or special customer situations.
+
+The hotel should also ensure that customer booking information is handled responsibly by protecting data privacy and using the model fairly and transparently when supporting operational decisions.
+  
 ## How to Run or Review
-1. Save the insurance_policy_renewal_dataset.xls file in the Jupyter Notebook root folder or working directory.
-2. Open the Assignment3_Classification-Models-and-Evaluation.ipynb file using Jupyter Notebook or JupyterLab.
-3. Run the notebook cells sequentially from top to bottom to execute the data preprocessing, model training, evaluation process and interpreting the result.
+1. Save the stayease_hotel_booking_cancellation_dataset.xlsx file in the Jupyter Notebook root folder or working directory.
+2. Open the DecisionTree_BookingCancellation.ipynb file using Jupyter Notebook or JupyterLab.
+3. Run the notebook cells sequentially.
