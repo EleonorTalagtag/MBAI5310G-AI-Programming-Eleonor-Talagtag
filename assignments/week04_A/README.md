@@ -50,16 +50,17 @@ F1-Score	48.39%
 The Decision Tree model showed moderate performance in predicting hotel booking cancellations. The model was able to identify some cancellation patterns, but it still produced several incorrect predictions. Recall was considered especially important because the business wants to identify as many potential cancellations as possible before the arrival date. Detecting more possible cancellations early can help the hotel improve room planning, manage overbooking risks, and reduce possible revenue loss.
 
 ## Key Business Insights
-The Decision Tree model helped identify booking characteristics associated with higher cancellation risk.
+The Decision Tree model helped identify booking characteristics associated with higher cancellation risk. These insights can support StayEase Boutique Hotels in making better operational and revenue management decisions before the guest arrival date.
 
 The model can support the business by:
 •	Identifying bookings with higher cancellation risk
 •	Improving room allocation and overbooking decisions
 •	Supporting proactive guest communication, such as reminder or confirmation emails
 •	Analyzing cancellation behavior across booking channels and deposit types
-•	Assisting managers in planning occupancy and revenue strategies
 
-Overall, the model provides useful insights into customer booking behavior that can help improve operational efficiency and decision-making.
+The model results also highlight the business impact of false predictions. False positives occur when the model predicts that a booking will be cancelled even though the guest actually arrives. This may lead to unnecessary business actions, such as inaccurate overbooking decisions or unnecessary customer follow-ups. False negatives occur when the model predicts that a booking will not be cancelled, but the guest actually cancels. This may result in empty rooms, missed opportunities to resell reservations, and possible revenue loss.
+
+Overall, the model provides useful insights into customer booking behavior that can help improve operational efficiency and support more informed business decision-making.
 
 ## One Limitation of the Model
 One limitation of the model is that the dataset is simulated and may not fully represent real-world hotel booking behavior. Factors such as weather conditions, flight delays, emergencies, local events, and sudden travel restrictions are not included in the dataset. In addition, the model may learn patterns from historical business practices that could introduce bias into predictions.
