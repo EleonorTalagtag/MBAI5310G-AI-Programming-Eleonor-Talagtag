@@ -9,7 +9,7 @@ The goal of this assignment is to help StayEase use historical booking data to p
 ## Files in This Folder
 •	DecisionTree_BookingCancellation.ipynb
 •	stayease_hotel_booking_cancellation_dataset.xlsx
-•	Model Results and Outputs
+•	Model Output
 •	Business interpretation
   
 ## Dataset or Input Source
